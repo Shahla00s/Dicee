@@ -1,5 +1,6 @@
  function load() {
          setTimeout(myURL, 5000);
+         clearTimeout(myURL);
       }
 
       function myURL() {

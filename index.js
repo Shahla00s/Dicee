@@ -1,9 +1,3 @@
- function load() {
-         setTimeout(myURL, 5000);
-         clearTimeout(myURL);
-      }
-
-      function myURL() {
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; 
 var randomDiceImage1 = "dice" + randomNumber1 + ".png";
 var randomImageSource = "./images/" + randomDiceImage1;
@@ -21,4 +15,4 @@ if (randomNumber1 > randomNumber2) {
     } else if (randomNumber1 === randomNumber2){
         document.querySelector("h1").innerHTML = "Draw!"
     }
-            }
+            
